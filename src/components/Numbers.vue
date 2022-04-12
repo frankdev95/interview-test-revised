@@ -52,7 +52,7 @@ export default {
     hov(number) {
       // get all available divisible numbers, divide by 2 as potential divisors cannot be larger than the number divided by 2
       let nums = this.numbers.slice(1, number / 2);
-      this.currentDivisors = [1, number];
+      this.currentDivisors = [1];
 
       // // all numbers can be divided by 1
       document.getElementById("number-1").classList.add("active");
